@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: flex;
+}
+body {
+  background: rgb(0, 134, 211);
+  min-height: 130vh;
+}
+#card {
+  background: rgb(0, 134, 211);
+  min-width: 100vh;
+  min-height: 600px;
+  height: 600px;
+  margin-top: 80px;
+  display: inline-flex;
+}
+
+.carda {
+  background: rgb(52, 52, 52);
+  width: 400px;
+  height: 600px;
+  border-radius: 30px;
+  box-shadow: 0 0 2px black;
+  margin-left: 50px;
+  display: inline-block;
+}
+
+.carda button {
+  color: white;
+  text-shadow: 0 0 10px blueviolet;
+  text-align: center;
+  margin-top: 250px;
+  margin-left: 50px;
+  font-size: 30px;
+  background: transparent;
+  border: 0cap;
+  font-family: sans-serif;
+}
+.cardb {
+  background: rgb(52, 52, 52);
+  width: 400px;
+  height: 600px;
+  border-radius: 30px;
+  box-shadow: 0 0 2px black;
+  margin-left: 90px;
+  display: inline-block;
+}
+
+.cardb button {
+  color: white;
+  text-shadow: 0 0 10px red;
+  text-align: center;
+  margin-top: 250px;
+  margin-left: 45px;
+  font-size: 30px;
+  background: transparent;
+  border: 0cap;
+  font-family: sans-serif;
+}
+.carde {
+  background: rgb(52, 52, 52);
+  width: 400px;
+  height: 600px;
+  border-radius: 30px;
+  box-shadow: 0 0 2px black;
+  margin-left: 90px;
+  display: inline-flex;
+}
+
+.carde button {
+  color: white;
+  text-shadow: 0 0 10px gold;
+  text-align: center;
+  margin-left: 30px;
+  font-size: 30px;
+  background: transparent;
+  border: 0cap;
+  font-family: sans-serif;
+}
+.carda:hover {
+  background: blueviolet;
+  width: 420px;
+  height: 620px;
+  border-radius: 30px;
+  margin-left: 50px;
+  display: inline-block;
+  margin-bottom: 20px;
+  box-shadow: 0 0 70px rgb(161, 0, 129);
+  transition: 1.1s;
+}
+
+.carda button:hover {
+  color: white;
+  text-align: center;
+  margin-top: 250px;
+  margin-left: 50px;
+  font-size: 30px;
+  background: transparent;
+  border: 0cap;
+  font-family: sans-serif;
+}
+.cardb:hover {
+  background: crimson;
+  width: 420px;
+  height: 620px;
+  border-radius: 30px;
+  margin-left: 100px;
+  display: inline-block;
+  margin-bottom: 20px;
+  box-shadow: 0 0 70px rgb(255, 42, 0);
+  transition: 1.1s;
+}
+.carde:hover {
+  background: gold;
+  width: 420px;
+  height: 620px;
+  border-radius: 30px;
+  box-shadow: 0 0 70px gold;
+  margin-left: 100px;
+  display: inline-flex;
+  transition: 1.1s;
+}
+.carda:active {
+  background: url(r.jpeg);
+  min-height: 620px;
+  min-width: 420px;
+  height: 620px;
+  width: 420px;
+  width: 420px;
+  height: 620px;
+  border-radius: 30px;
+  margin-left: 50px;
+  display: inline-block;
+  margin-bottom: 20px;
+  box-shadow: 0 0 70px rgb(0, 0, 0);
+  transition: 1.1s;
+}
+.cardb:active {
+  background: url(t.jpg);
+  min-height: 620px;
+  min-width: 420px;
+  height: 620px;
+  width: 420px;
+  width: 420px;
+  height: 620px;
+  border-radius: 30px;
+  margin-left: 50px;
+  display: inline-block;
+  margin-bottom: 20px;
+  box-shadow: 0 0 70px rgb(0, 0, 0);
+  transition: 1.1s;
+}
+.carde:active {
+  background: url(dress.jpeg);
+  min-height: 620px;
+  min-width: 420px;
+  height: 620px;
+  width: 420px;
+  width: 420px;
+  height: 620px;
+  border-radius: 30px;
+  margin-left: 50px;
+  display: inline-block;
+  margin-bottom: 20px;
+  box-shadow: 0 0 70px rgb(0, 0, 0);
+  transition: 1.1s;
+}
